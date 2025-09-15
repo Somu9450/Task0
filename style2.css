@@ -1,16 +1,13 @@
 input[type="text"]{
     font-size:20px;
-    width:150px;
 
 }
 input[type="email"]{
     font-size:20px;
-    width:150px;
 
 }
 select{
     font-size:20px;
-    width:150px;
 
 }
 
@@ -74,10 +71,9 @@ select{
 }
 
 .fan-form input{
-    width: 100%;
+    width: 95%;
     max-width:700px;
     padding: 12px;
-    padding-left:10px;
     margin-bottom: 20px;
     border: none;
     border-radius: 20px;
@@ -89,7 +85,6 @@ select{
     width: 100%;
     max-width:700px;
     padding: 12px;
-    padding-left:30px;
     margin-bottom: 20px;
     border: none;
     border-radius: 20px;
@@ -117,7 +112,7 @@ select{
     border: none;
     cursor: pointer;
     display: block;
-    margin: 15px auto 0;
+    margin: 15px auto ;
 }
 
 .submit-btn img {
