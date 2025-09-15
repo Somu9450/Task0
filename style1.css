@@ -1,0 +1,45 @@
+body{
+    font-family: 'Marvel', sans-serif;
+   background-image: url('https://wallpaperbat.com/img/566753-captain-america-wallpaper.jpg');
+    background-size: cover;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    height:100%;
+
+}
+
+.left-image-flex{
+    display:flex;
+    min-height: 110vh;
+    background-image: url('https://wallpapercave.com/wp/wp6100205.jpg');
+    background-size: cover;
+    background-position: center;
+    flex:1;
+
+}
+.left-image-flex:hover{
+    transform: scale(0.9);
+    transition: transform 0.3s;
+    opacity: 0.8;
+    
+}
+
+
+.right-image-flex{
+    display:flex;
+    min-height: 110vh;
+    background-image: url('https://wallpapercave.com/wp/wp9024557.jpg');
+    background-size: cover;
+    background-position: center;
+    flex:1;
+}
+
+.right-image-flex:hover{
+    transform: scale(0.9);
+    transition: transform 0.3s;
+    opacity: 0.8;
+    
+}

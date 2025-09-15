@@ -1,0 +1,138 @@
+input[type="text"]{
+    font-size:20px;
+    width:150px;
+
+}
+input[type="email"]{
+    font-size:20px;
+    width:150px;
+
+}
+select{
+    font-size:20px;
+    width:150px;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-section-flex {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.form-head {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top:10px;
+
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    transition: transform 0.4s;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.form-heading {
+    font-size: 70px;
+    color: rgb(126, 20, 20);
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Marvel', sans-serif;
+    text-shadow: 2px 2px 4px #6d2121;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    max-height: 900px;
+}
+
+.fan-form {
+    background: rgba(2, 37, 71, 0.5);
+    padding: 30px;
+    border-radius: 20px;
+    color: rgb(139, 140, 143);
+    font-family: 'Marvel', sans-serif;
+    font-size:25px;
+}
+
+.fan-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.fan-form input{
+    width: 100%;
+    max-width:700px;
+    padding: 12px;
+    padding-left:30px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(5, 76, 147, 0.5);
+    color: rgb(139, 183, 243);
+    font-weight: 400;
+}
+.fan-form select{
+    width: 100%;
+    max-width:700px;
+    padding: 12px;
+    padding-left:30px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(5, 76, 147, 0.5);
+    color: rgb(139, 183, 243);
+    font-weight: 400;
+}
+
+.fan-form input:focus,
+.fan-form select:focus {
+    outline: 3px solid rgb(0, 105, 252);
+
+}
+
+.fan-form input:hover,
+.fan-form select:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+    
+
+}
+
+.submit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto 0;
+}
+
+.submit-btn img {
+    width: 100%;
+    max-width: 150px;
+    border:none;
+    border-radius:40px;
+    transition: transform 0.2s;
+}
+
+.submit-btn img:active {
+    transform: scale(1.2);
+}
